@@ -1,7 +1,7 @@
 credits={1:23,2:47,3:68,4:93,5:116,6:139,7:163}
 
 curcg=float(input("Enter your current CGPA: "))
-cursem=int(input("No. of completed sems: "))
+cursem=int(input("No. of completed sems (with results published): "))
 curcre=int(credits[cursem])
     
 score=round((curcg*curcre))
